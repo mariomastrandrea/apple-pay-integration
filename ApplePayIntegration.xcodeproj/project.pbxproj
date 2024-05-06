@@ -53,9 +53,9 @@
 		805E22152BE9599600E35932 = {
 			isa = PBXGroup;
 			children = (
+				805E22202BE9599600E35932 /* Products */,
 				805E22212BE9599600E35932 /* ApplePayIntegration */,
 				805E222D2BE9599600E35932 /* ApplePayIntegrationTests */,
-				805E22202BE9599600E35932 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
