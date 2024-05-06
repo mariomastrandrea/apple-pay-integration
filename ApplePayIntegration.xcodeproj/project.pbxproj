@@ -11,6 +11,20 @@
 		805E222A2BE9599600E35932 /* ApplePayIntegration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 805E221F2BE9599600E35932 /* ApplePayIntegration.framework */; };
 		805E222F2BE9599600E35932 /* ApplePayIntegrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805E222E2BE9599600E35932 /* ApplePayIntegrationTests.swift */; };
 		805E22302BE9599600E35932 /* ApplePayIntegration.h in Headers */ = {isa = PBXBuildFile; fileRef = 805E22222BE9599600E35932 /* ApplePayIntegration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		805E224F2BE95CE300E35932 /* ApplePayPayment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805E22392BE95CE200E35932 /* ApplePayPayment.swift */; };
+		805E22512BE95CE300E35932 /* ApplePayPayment+PaymentMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805E223E2BE95CE200E35932 /* ApplePayPayment+PaymentMethod.swift */; };
+		805E22522BE95CE300E35932 /* ApplePayPayment+PriceItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805E223F2BE95CE200E35932 /* ApplePayPayment+PriceItem.swift */; };
+		805E22532BE95CE300E35932 /* ApplePayPayment+MerchantCapability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805E22402BE95CE200E35932 /* ApplePayPayment+MerchantCapability.swift */; };
+		805E22542BE95CE300E35932 /* ApplePayError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805E22412BE95CE200E35932 /* ApplePayError.swift */; };
+		805E22552BE95CE300E35932 /* ApplePayPayment+CardType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805E22422BE95CE200E35932 /* ApplePayPayment+CardType.swift */; };
+		805E22562BE95CE300E35932 /* TransactionRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805E22442BE95CE200E35932 /* TransactionRequest.swift */; };
+		805E22572BE95CE300E35932 /* PaymentInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805E22452BE95CE200E35932 /* PaymentInfo.swift */; };
+		805E22582BE95CE300E35932 /* TransactionResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805E22462BE95CE200E35932 /* TransactionResponse.swift */; };
+		805E22592BE95CE300E35932 /* ApplePayPayment+State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805E22482BE95CE200E35932 /* ApplePayPayment+State.swift */; };
+		805E225A2BE95CE300E35932 /* StandardPaymentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805E224A2BE95CE200E35932 /* StandardPaymentManager.swift */; };
+		805E225B2BE95CE300E35932 /* ApplePayPaymentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805E224B2BE95CE200E35932 /* ApplePayPaymentManager.swift */; };
+		805E225C2BE95CE300E35932 /* ApplePayFakeRemotePaymentService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805E224D2BE95CE300E35932 /* ApplePayFakeRemotePaymentService.swift */; };
+		805E225D2BE95CE300E35932 /* ApplePayRemotePaymentService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805E224E2BE95CE300E35932 /* ApplePayRemotePaymentService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +43,20 @@
 		805E22232BE9599600E35932 /* ApplePayIntegration.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = ApplePayIntegration.docc; sourceTree = "<group>"; };
 		805E22292BE9599600E35932 /* ApplePayIntegrationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ApplePayIntegrationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		805E222E2BE9599600E35932 /* ApplePayIntegrationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplePayIntegrationTests.swift; sourceTree = "<group>"; };
+		805E22392BE95CE200E35932 /* ApplePayPayment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplePayPayment.swift; sourceTree = "<group>"; };
+		805E223E2BE95CE200E35932 /* ApplePayPayment+PaymentMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ApplePayPayment+PaymentMethod.swift"; sourceTree = "<group>"; };
+		805E223F2BE95CE200E35932 /* ApplePayPayment+PriceItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ApplePayPayment+PriceItem.swift"; sourceTree = "<group>"; };
+		805E22402BE95CE200E35932 /* ApplePayPayment+MerchantCapability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ApplePayPayment+MerchantCapability.swift"; sourceTree = "<group>"; };
+		805E22412BE95CE200E35932 /* ApplePayError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplePayError.swift; sourceTree = "<group>"; };
+		805E22422BE95CE200E35932 /* ApplePayPayment+CardType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ApplePayPayment+CardType.swift"; sourceTree = "<group>"; };
+		805E22442BE95CE200E35932 /* TransactionRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionRequest.swift; sourceTree = "<group>"; };
+		805E22452BE95CE200E35932 /* PaymentInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentInfo.swift; sourceTree = "<group>"; };
+		805E22462BE95CE200E35932 /* TransactionResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionResponse.swift; sourceTree = "<group>"; };
+		805E22482BE95CE200E35932 /* ApplePayPayment+State.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ApplePayPayment+State.swift"; sourceTree = "<group>"; };
+		805E224A2BE95CE200E35932 /* StandardPaymentManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StandardPaymentManager.swift; sourceTree = "<group>"; };
+		805E224B2BE95CE200E35932 /* ApplePayPaymentManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplePayPaymentManager.swift; sourceTree = "<group>"; };
+		805E224D2BE95CE300E35932 /* ApplePayFakeRemotePaymentService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplePayFakeRemotePaymentService.swift; sourceTree = "<group>"; };
+		805E224E2BE95CE300E35932 /* ApplePayRemotePaymentService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplePayRemotePaymentService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,9 +81,9 @@
 		805E22152BE9599600E35932 = {
 			isa = PBXGroup;
 			children = (
-				805E22202BE9599600E35932 /* Products */,
 				805E22212BE9599600E35932 /* ApplePayIntegration */,
 				805E222D2BE9599600E35932 /* ApplePayIntegrationTests */,
+				805E22202BE9599600E35932 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,6 +99,10 @@
 		805E22212BE9599600E35932 /* ApplePayIntegration */ = {
 			isa = PBXGroup;
 			children = (
+				805E22492BE95CE200E35932 /* PaymentManager */,
+				805E224C2BE95CE300E35932 /* Services */,
+				805E223C2BE95CE200E35932 /* Models */,
+				805E22392BE95CE200E35932 /* ApplePayPayment.swift */,
 				805E22222BE9599600E35932 /* ApplePayIntegration.h */,
 				805E22232BE9599600E35932 /* ApplePayIntegration.docc */,
 			);
@@ -83,6 +115,64 @@
 				805E222E2BE9599600E35932 /* ApplePayIntegrationTests.swift */,
 			);
 			path = ApplePayIntegrationTests;
+			sourceTree = "<group>";
+		};
+		805E223C2BE95CE200E35932 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				805E223D2BE95CE200E35932 /* Shared */,
+				805E22432BE95CE200E35932 /* StartApplePayTransaction */,
+				805E22472BE95CE200E35932 /* CanUseApplePay */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		805E223D2BE95CE200E35932 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				805E223E2BE95CE200E35932 /* ApplePayPayment+PaymentMethod.swift */,
+				805E223F2BE95CE200E35932 /* ApplePayPayment+PriceItem.swift */,
+				805E22402BE95CE200E35932 /* ApplePayPayment+MerchantCapability.swift */,
+				805E22412BE95CE200E35932 /* ApplePayError.swift */,
+				805E22422BE95CE200E35932 /* ApplePayPayment+CardType.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		805E22432BE95CE200E35932 /* StartApplePayTransaction */ = {
+			isa = PBXGroup;
+			children = (
+				805E22442BE95CE200E35932 /* TransactionRequest.swift */,
+				805E22452BE95CE200E35932 /* PaymentInfo.swift */,
+				805E22462BE95CE200E35932 /* TransactionResponse.swift */,
+			);
+			path = StartApplePayTransaction;
+			sourceTree = "<group>";
+		};
+		805E22472BE95CE200E35932 /* CanUseApplePay */ = {
+			isa = PBXGroup;
+			children = (
+				805E22482BE95CE200E35932 /* ApplePayPayment+State.swift */,
+			);
+			path = CanUseApplePay;
+			sourceTree = "<group>";
+		};
+		805E22492BE95CE200E35932 /* PaymentManager */ = {
+			isa = PBXGroup;
+			children = (
+				805E224A2BE95CE200E35932 /* StandardPaymentManager.swift */,
+				805E224B2BE95CE200E35932 /* ApplePayPaymentManager.swift */,
+			);
+			path = PaymentManager;
+			sourceTree = "<group>";
+		};
+		805E224C2BE95CE300E35932 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				805E224D2BE95CE300E35932 /* ApplePayFakeRemotePaymentService.swift */,
+				805E224E2BE95CE300E35932 /* ApplePayRemotePaymentService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,7 +252,6 @@
 				Base,
 			);
 			mainGroup = 805E22152BE9599600E35932;
-			productRefGroup = 805E22202BE9599600E35932 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -194,6 +283,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				805E22582BE95CE300E35932 /* TransactionResponse.swift in Sources */,
+				805E224F2BE95CE300E35932 /* ApplePayPayment.swift in Sources */,
+				805E22562BE95CE300E35932 /* TransactionRequest.swift in Sources */,
+				805E225D2BE95CE300E35932 /* ApplePayRemotePaymentService.swift in Sources */,
+				805E22592BE95CE300E35932 /* ApplePayPayment+State.swift in Sources */,
+				805E22552BE95CE300E35932 /* ApplePayPayment+CardType.swift in Sources */,
+				805E22522BE95CE300E35932 /* ApplePayPayment+PriceItem.swift in Sources */,
+				805E22512BE95CE300E35932 /* ApplePayPayment+PaymentMethod.swift in Sources */,
+				805E22572BE95CE300E35932 /* PaymentInfo.swift in Sources */,
+				805E22542BE95CE300E35932 /* ApplePayError.swift in Sources */,
+				805E225C2BE95CE300E35932 /* ApplePayFakeRemotePaymentService.swift in Sources */,
+				805E225B2BE95CE300E35932 /* ApplePayPaymentManager.swift in Sources */,
+				805E225A2BE95CE300E35932 /* StandardPaymentManager.swift in Sources */,
+				805E22532BE95CE300E35932 /* ApplePayPayment+MerchantCapability.swift in Sources */,
 				805E22242BE9599600E35932 /* ApplePayIntegration.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -417,6 +520,7 @@
 		805E22372BE9599600E35932 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = S9QPEW3P9H;
@@ -433,6 +537,7 @@
 		805E22382BE9599600E35932 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = S9QPEW3P9H;
