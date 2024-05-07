@@ -10,7 +10,7 @@ import Foundation
 
 typealias ApplePayPaymentCompletion = (Result<ApplePayPayment.TransactionResponse, ApplePayError>) -> Void
 
-protocol ApplePayPaymentManager {
+protocol ApplePayPaymentManagerInterface {
     /**
      Determine if the user's device can use Apple Pay in-app payment services or not with the specified payment methods.
      - parameter paymentMethods: Set of payment methods accepted by the payment service provider in charge of processing the transaction.

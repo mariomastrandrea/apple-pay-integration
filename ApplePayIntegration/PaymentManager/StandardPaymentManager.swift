@@ -10,7 +10,7 @@ import Foundation
 import PassKit
 
 extension ApplePayPayment {
-    class StandardPaymentManager: NSObject, ApplePayPaymentManager {
+    class StandardPaymentManager: NSObject, ApplePayPaymentManagerInterface {
         private var paymentService: ApplePayRemotePaymentService?
         private var paymentCompletion: ApplePayPaymentCompletion?
         
