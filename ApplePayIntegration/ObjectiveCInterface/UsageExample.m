@@ -42,10 +42,18 @@
         PRMerchantCapability.debit
     ];
     
-    PRApplePayPaymentState* applePayState = [ manager
-                canUseApplePayWithPaymentMethods:paymentMethods
-                                 andCapabilities:merchantCapabilities
-    ];
+    PRApplePayPaymentState* applePayState = [manager canUseApplePayWithPaymentMethods:paymentMethods
+                                                                      andCapabilities:merchantCapabilities];
+    
+    if([applePayState isEqual:PRApplePayPaymentState.available]) {
+        printf("Apple Pay is available");
+    }
+    else if([applePayState isEqual:PRApplePayPaymentState.notConfiguredPaymentMethods]) {
+        printf("Apple Pay has not configured the specified payment methods");
+    }
+    else if([applePayState isEqual:PRApplePayPaymentState.notAvailable]) {
+        printf("Apple Pay is not available");
+    }
     
     // startApplePay
     
@@ -82,3 +90,4 @@
 }
 
 @end
+

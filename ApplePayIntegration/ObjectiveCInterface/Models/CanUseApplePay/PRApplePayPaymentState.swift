@@ -9,7 +9,8 @@
 import Foundation
 
 /**
- A state indicating the availability of Apple Pay services on the user's device
+ A state indicating the availability of Apple Pay services on the user's device.
+ Possible states are: `PRApplePayPaymentState.available`, `PRApplePayPaymentState.notConfiguredPaymentMethods`, `PRApplePayPaymentState.notAvailable`
  */
 @objc public class PRApplePayPaymentState: NSObject {
     /** User's device supports Apple Pay */
