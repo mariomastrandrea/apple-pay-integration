@@ -22,6 +22,6 @@ extension ApplePayPayment {
                 amount: NSDecimalNumber(decimal: price),
                 type: .final
             )
-        }        
+        }
     }
 }

@@ -13,7 +13,7 @@ extension ApplePayPayment {
     /**
      Possible payment methods supported by the merchant. They refer to the PassKit `PKPaymentNetwork` values, listed [here](https://developer.apple.com/documentation/passkit_apple_pay_and_wallet/pkpaymentnetwork).
      */
-    enum PaymentMethod: Codable {
+    enum PaymentMethod: String, Codable {
         case amex
         case discover
         case mastercard

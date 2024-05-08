@@ -13,7 +13,7 @@ extension ApplePayPayment {
     /**
      Possible payment card types available on Apple Pay. They refer to the PassKit `PKPaymentMethodType` values, listed [here](https://developer.apple.com/documentation/passkit_apple_pay_and_wallet/pkpaymentmethodtype).
      */
-    enum CardType: Codable {
+    enum CardType: String, Codable {
         case unknown
         case debit
         case eMoney

@@ -13,7 +13,7 @@ extension ApplePayPayment{
     /**
      Possible payment capabilities supported by the merchant. They refer to the PassKit `PKMerchantCapability` values, listed [here](https://developer.apple.com/documentation/passkit_apple_pay_and_wallet/pkmerchantcapability).
      */
-    enum MerchantCapability {
+    enum MerchantCapability: String {
         /** Support for the 3-D Secure protocol */
         case threeDSecure
         /** Support for the EMV protocol */
@@ -29,18 +29,6 @@ extension ApplePayPayment{
                 case .emv:          return .emv
                 case .credit:       return .credit
                 case .debit:        return .debit
-            }
-        }
-        
-        internal static func from(passkitMerchantCapability: PKMerchantCapability?) -> Self? {
-            guard let passkitMerchantCapability else { return nil }
-            
-            switch passkitMerchantCapability {
-                case .threeDSecure: return .threeDSecure
-                case .emv:          return .emv
-                case .credit:       return .credit
-                case .debit:        return .debit
-                default:            return nil
             }
         }
     }

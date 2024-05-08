@@ -1,5 +1,5 @@
 //
-//  ApplePayPaymentManager.swift
+//  ApplePayPaymentManagerInterface.swift
 //  Offering-Apple-Pay-in-Your-App
 //
 //  Created by Mario Mastrandrea on 03/05/24.
@@ -25,7 +25,7 @@ protocol ApplePayPaymentManagerInterface {
     /**
      Start the Apple Pay flow showing the payment sheet and requesting user both payment method and biometric identification, then perform the payment.
      - parameter request:        Specific information needed to authorize the Apple Pay transaction.
-     - parameter paymentService: Remote service to actually perform the transaction using the payment info.
+     - parameter paymentService: Remote service to actually perform the transaction using the payment information.
      - parameter completion:     Callback to asynchronously return the outcome of the Apple Pay transaction.
      
      - important: Completion handler function might be executed in a secondary thread
@@ -34,5 +34,5 @@ protocol ApplePayPaymentManagerInterface {
         withRequest request: ApplePayPayment.TransactionRequest,
         paymentService: ApplePayRemotePaymentService,
         completion: @escaping ApplePayPaymentCompletion
-     )
+    )
 }
