@@ -32,7 +32,6 @@
 		808A40442BEB7F8D008E6B10 /* PRTransactionRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808A40302BEB7F8C008E6B10 /* PRTransactionRequest.swift */; };
 		808A40452BEB7F8D008E6B10 /* PRTransactionResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808A40312BEB7F8C008E6B10 /* PRTransactionResponse.swift */; };
 		808A40462BEB7F8D008E6B10 /* PRApplePayPaymentState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808A40332BEB7F8C008E6B10 /* PRApplePayPaymentState.swift */; };
-		808A40472BEB7F8D008E6B10 /* UsageExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 808A40342BEB7F8C008E6B10 /* UsageExample.m */; };
 		808A40482BEB7F8D008E6B10 /* RemotePaymentServiceAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808A40372BEB7F8C008E6B10 /* RemotePaymentServiceAdapter.swift */; };
 		808A40492BEB7F8D008E6B10 /* PRRemotePaymentService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808A40382BEB7F8C008E6B10 /* PRRemotePaymentService.swift */; };
 		808A404A2BEB7F8D008E6B10 /* PRFakeRemotePaymentService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808A40392BEB7F8C008E6B10 /* PRFakeRemotePaymentService.swift */; };
@@ -197,9 +196,9 @@
 		808A3FFF2BEA6408008E6B10 /* ObjectiveCInterface */ = {
 			isa = PBXGroup;
 			children = (
-				808A40272BEB7F8C008E6B10 /* ApplePayPaymentManager.swift */,
 				808A40282BEB7F8C008E6B10 /* Models */,
 				808A40352BEB7F8C008E6B10 /* Services */,
+				808A40272BEB7F8C008E6B10 /* ApplePayPaymentManager.swift */,
 				808A40342BEB7F8C008E6B10 /* UsageExample.m */,
 			);
 			path = ObjectiveCInterface;
@@ -392,7 +391,6 @@
 				805E225D2BE95CE300E35932 /* ApplePayRemotePaymentService.swift in Sources */,
 				808A40432BEB7F8D008E6B10 /* PRPaymentInfo.swift in Sources */,
 				805E22592BE95CE300E35932 /* ApplePayPayment+State.swift in Sources */,
-				808A40472BEB7F8D008E6B10 /* UsageExample.m in Sources */,
 				808A404B2BEB7F8D008E6B10 /* PRPaymentCompletionDelegate.swift in Sources */,
 				805E22552BE95CE300E35932 /* ApplePayPayment+CardType.swift in Sources */,
 				805E22522BE95CE300E35932 /* ApplePayPayment+PriceItem.swift in Sources */,

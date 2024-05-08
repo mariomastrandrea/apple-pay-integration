@@ -7,9 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "PRNewAppSDK/PRNewAppSDK-Swift.h"
-
-
+// *** import the project's Swift header file ***
+// #import "PROJECT_NAME/PROJECT_NAME-Swift.h"
 
 @interface TestClass : NSObject
 
